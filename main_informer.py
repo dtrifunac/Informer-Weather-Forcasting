@@ -3,7 +3,7 @@ import os
 import torch
 
 from exp.exp_informer import Exp_Informer
-
+print("Starting main_informer")
 parser = argparse.ArgumentParser(description='[Informer] Long Sequences Forecasting')
 
 parser.add_argument('--model', type=str, required=True, default='informer',help='model of experiment, options: [informer, informerstack, informerlight(TBD)]')
