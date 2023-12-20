@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import numpy as np
-station_code = "72051800449"
+station_code = "72658014922"
 
 dfs = []
 
