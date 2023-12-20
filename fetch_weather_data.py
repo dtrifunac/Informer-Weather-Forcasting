@@ -34,6 +34,6 @@ cols = ["HourlyVisibility", "HourlyDryBulbTemperature", "HourlyWetBulbTemperatur
 alldata[cols] = alldata[cols].apply(pd.to_numeric, errors='coerce')
 alldata = alldata.dropna()
 print(alldata.dtypes)
-alldata.to_csv(f"weather_data_{station_code}_{start_year}-{end_year}.csv", index=False)
+alldata.to_csv(f"CustomData/weather_data_{station_code}_{start_year}-{end_year}.csv", index=False)
 
 
